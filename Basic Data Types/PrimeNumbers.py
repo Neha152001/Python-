@@ -6,7 +6,7 @@ def prime(a,b):
             if(i%j==0):
                 c+=1
         if(c==2):
-            print(i,'\t')
+            print(i)
 
 li=int(input("Enter lower interval :"))
 ui=int(input("Enter lower interval :"))
